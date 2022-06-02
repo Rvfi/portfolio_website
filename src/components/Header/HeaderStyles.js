@@ -1,7 +1,7 @@
 import { IoIosArrowDropdown } from 'react-icons/io';
 import styled from 'styled-components';
 
-export const Container = styled.div`
+export const Container = styled.div `
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr;
@@ -17,7 +17,7 @@ export const Container = styled.div`
     grid-row-gap: 0.5rem;
   }
 `;
-export const Div1 = styled.div`
+export const Div1 = styled.div `
   grid-area: 1 / 1 / 2 / 2;
   display: flex;
   flex-direction: row;
@@ -26,7 +26,7 @@ export const Div1 = styled.div`
     grid-area: 1 / 1 / 2 / 3;
   }
 `;
-export const Div2 = styled.div`
+export const Div2 = styled.div `
   grid-area: 1 / 2 / 2 / 4;
   display: flex;
   justify-content: space-around;
@@ -34,7 +34,7 @@ export const Div2 = styled.div`
     grid-area: 2 / 2 / 3 / 5;
   }
 `;
-export const Div3 = styled.div`
+export const Div3 = styled.div `
   grid-area: 1 / 5 / 2 / 6;
   display: flex;
   justify-content: space-around;
@@ -46,7 +46,7 @@ export const Div3 = styled.div`
 `;
 
 // Navigation Links
-export const NavLink = styled.a`
+export const NavLink = styled.a `
   font-size: 2rem;
   line-height: 32px;
   color: rgba(255, 255, 255, 0.75);
@@ -62,7 +62,7 @@ export const NavLink = styled.a`
 `;
 
 /// DropDown Contact
-export const ContactDropDown = styled.button`
+export const ContactDropDown = styled.button `
   border: none;
   display: flex;
   position: relative;
@@ -89,7 +89,8 @@ export const ContactDropDown = styled.button`
   }
 `;
 
-export const NavProductsIcon = styled(IoIosArrowDropdown)`
+export const NavProductsIcon = styled(IoIosArrowDropdown)
+`
   margin-left: 8px;
   display: flex;
   align-self: center;
@@ -110,7 +111,7 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
 
 // Social Icons 
 
-export const SocialIcons = styled.a`
+export const SocialIcons = styled.a `
 transition: 0.3s ease;
 color: white;
 border-radius: 50px;
