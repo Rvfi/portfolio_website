@@ -1,11 +1,11 @@
 export const projects = [
   {
     title: 'Canvas Bot',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    description: "This is a discord bot that makes use of the open Canvas api to remind students on discord about their upcoming assignments and reminds them to check their Canvas about more details about the assigments' due date. Using a mixture of Python to create functions used in commands and for the bot and will be running on AWS (Amazon Web Services) for hosting.",
+    image: '/images/canvas.png',
+    tags: ['JavaScript', 'Python', 'AWS', 'Canvas API'],
+    source: 'https://github.com/Buizels/Canvas-Bot',
+    visit: 'https://github.com/Buizels/Canvas-Bot',
     id: 0,
   },
   {
